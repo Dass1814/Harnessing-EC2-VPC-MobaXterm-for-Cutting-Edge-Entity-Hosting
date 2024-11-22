@@ -1,0 +1,2 @@
+aws ec2 create-internet-gateway
+aws ec2 attach-internet-gateway --vpc-id <your-vpc-id> --internet-gateway-id <your-internet-gateway-id>
