@@ -1,0 +1,5 @@
+# Create a public subnet
+aws ec2 create-subnet --vpc-id <your-vpc-id> --cidr-block 10.0.1.0/24 --availability-zone <your-availability-zone>
+
+# Create a private subnet
+aws ec2 create-subnet --vpc-id <your-vpc-id> --cidr-block 10.0.2.0/24 --availability-zone <your-availability-zone>
